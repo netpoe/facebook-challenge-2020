@@ -52,9 +52,9 @@ Once the `authToken` is returned from a successful authentication call, **what i
 
 ## Pre-requisites
 
-This tutorial assumes that you already created a React application with [`create-react-app`](https://create-react-app.dev/docs/adding-typescript/#installation).
+Clone this application with `git clone git@github.com:netpoe/facebook-challenge-2020.git`
 
-This tutorial uses Typescript.
+This tutorial assumes that you are familiar with Typescript and the basics of HTTP Request headers.
 
 ---
 
@@ -449,8 +449,6 @@ React.useEffect(() => {
 [According to the docs](https://reactjs.org/docs/hooks-effect.html#example-using-hooks-1), the first argument of `useEffect` which is a function, can return another function that will be called when the component unmounts.
 
 ### Conclusion
-
-![result](https://ipfs.io/ipfs/QmP3nqu9UrdXmJzYUEsExfe5YRnZhM7aAJzyEs51HxmEnX)
 
 Whenever you call a new server endpoint that needs an `Authorization` header, you'll have a fresh `authToken` attached to the request.
 
