@@ -1,10 +1,7 @@
-**Title**: Updating a client request's `Authorization` header using Observables
-
-**Author**: Gustavo Ibarra <@netpoe>
-
-**Level**: Intermediate-Advanced
-
-**Keywords**: `useContext`, `setContext`, `BehaviorSubject`, `Subscription`, Dependency Injection, `inversify`, `GraphQL`, `@apollo/client`
+- **Title**: Updating a client request's `Authorization` header using Observables
+- **Author**: Gustavo Ibarra <@netpoe>
+- **Level**: Intermediate-Advanced
+- **Keywords**: `useContext`, `setContext`, `BehaviorSubject`, `Subscription`, Dependency Injection, `inversify`, `GraphQL`, `@apollo/client`
 
 ## Description
 
@@ -461,6 +458,6 @@ This pattern works for `GraphQL` clients and any other HTTP clients alike.
 
 If you got this far, you've learned how to:
 
-✅ Abstract logic from your components into a helper model object or class
-✅ Inject dependencies using `inversify` containers and React's `useContext` hook
-✅ Observe changes of a certain value across multiple dependencies and components
+- ✅ Abstract logic from your components into a helper model object or class
+- ✅ Inject dependencies using `inversify` containers and React's `useContext` hook
+- ✅ Observe changes of a certain value across multiple dependencies and components
