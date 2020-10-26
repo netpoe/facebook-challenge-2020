@@ -1,6 +1,9 @@
 **Title**: Updating a client request's `Authorization` header using Observables
+
 **Author**: Gustavo Ibarra <@netpoe>
+
 **Level**: Intermediate-Advanced
+
 **Keywords**: `useContext`, `setContext`, `BehaviorSubject`, `Subscription`, Dependency Injection, `inversify`, `GraphQL`, `@apollo/client`
 
 ## Description
@@ -449,6 +452,8 @@ React.useEffect(() => {
 [According to the docs](https://reactjs.org/docs/hooks-effect.html#example-using-hooks-1), the first argument of `useEffect` which is a function, can return another function that will be called when the component unmounts.
 
 ### Conclusion
+
+![result](https://ipfs.io/ipfs/QmP3nqu9UrdXmJzYUEsExfe5YRnZhM7aAJzyEs51HxmEnX)
 
 Whenever you call a new server endpoint that needs an `Authorization` header, you'll have a fresh `authToken` attached to the request.
 
